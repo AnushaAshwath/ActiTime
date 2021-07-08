@@ -6,7 +6,11 @@ import org.testng.annotations.Test;
 public class CustomerModule {
    @Test
 	public void CreateCustomer() {
-		Reporter.log("Hi");
-		
+		Reporter.log("Hi");	
 	}
+   @Test
+   public void DeleteCustomer()
+   {
+	   Reporter.log("Hi");
+   }
 }
