@@ -9,5 +9,10 @@ public class TaskModule {
 	{
 		Reporter.log("Hi");
 	}
+	@Test
+	public void testDeleteTask()
+	{
+		Reporter.log("Bye");
+	}
 
 }
